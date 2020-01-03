@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>top.maplefix</groupId>
+        <artifactId>learn-demo</artifactId>
+        <version>1.0</version>
+    </parent>
+    <artifactId>encry</artifactId>
+    <version>1.0</version>
+    <name>encrypt</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <bcprov-jdk15on.version>1.62</bcprov-jdk15on.version>
+        <bcpkix-jdk15on.version>1.62</bcpkix-jdk15on.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>top.maplefix</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- SM2withSM3加密包-->
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>${bcprov-jdk15on.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>${bcpkix-jdk15on.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.ehcase.oscca</groupId>
+            <artifactId>chese-signCn</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/chase-signCn.jar</systemPath>
+            <classifier>jdk15</classifier>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,14 @@
+server:
+  port: 80
+  servlet:
+    context-path: /qrcode
+
+spring:
+  application:
+    name: qrcode
+  thymeleaf:
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    enabled: false
+    mode: HTML
