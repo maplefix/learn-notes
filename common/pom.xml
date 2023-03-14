@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>top.maplefix</groupId>
-        <artifactId>learn-demo</artifactId>
+        <artifactId>learn-notes</artifactId>
         <version>1.0</version>
     </parent>
     <artifactId>common</artifactId>

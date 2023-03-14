@@ -10,4 +10,4 @@ spring:
       port: 27017
       username: demo
       password: demo
-      database: learn-demo
+      database: learn-notes

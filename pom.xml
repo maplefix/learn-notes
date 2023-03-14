@@ -10,10 +10,10 @@
         <version>2.1.6.RELEASE</version>
     </parent>
     <groupId>top.maplefix</groupId>
-    <artifactId>learn-demo</artifactId>
+    <artifactId>learn-notes</artifactId>
     <version>1.0</version>
     <packaging>pom</packaging>
-    <name>learn-demo</name>
+    <name>learn-notes</name>
     <description>Personal daily learning content arrangement project</description>
 
     <properties>
@@ -74,6 +74,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>

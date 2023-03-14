@@ -1,11 +1,11 @@
-# learn-demo
+# learn-notes
 > 日常学习demo记录，目前已有模块包括：
 
 
 ## common通用模块依赖
   包括一些常用的工具类和依赖包
 ## webservice
-  springboot整合微博service发布
+  springboot整合webservice发布
 ## io
   io模块中的NIO操作,包括客户端和服务端通信及测试类
 ## encrypt
