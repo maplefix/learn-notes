@@ -13,7 +13,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <bcprov-jdk15on.version>1.62</bcprov-jdk15on.version>
+        <bcprov-jdk15on.version>1.67</bcprov-jdk15on.version>
         <bcpkix-jdk15on.version>1.62</bcpkix-jdk15on.version>
     </properties>
 
