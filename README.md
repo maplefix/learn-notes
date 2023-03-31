@@ -15,6 +15,6 @@
 ## qrcode
   二维码生成,简单二维码和带log二维码生成
 ## design-pattern(learning)
-  设计模式。。。
+  常用设计模式。。。
 ## redis-lock
   Redis实现分布式锁的几种方案
